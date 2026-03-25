@@ -1,4 +1,4 @@
-# <img src="https://playerdb.co/assets/images/logo.svg" width="28" style="vertical-align:middle;" /> playerdb.py
+# <img src="https://playerdb.co/assets/images/logo.svg" width="50" style="vertical-align:middle;" /> playerdb.py
 
 > Web-API for [PlayerDB](https://playerdb.co) look up player profiles for Minecraft, Steam, and Xbox accounts.
 
