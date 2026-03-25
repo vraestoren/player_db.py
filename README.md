@@ -1,11 +1,21 @@
-# player_db.py
-Web-API for [playerdb.co](https://playerdb.co/) JSON powered player fetching and caching service
+# <img src="https://playerdb.co/assets/images/logo.svg" width="28" style="vertical-align:middle;" /> playerdb.py
 
-## Example
-```python3
-from player_db import PlayerDb
+> Web-API for [PlayerDB](https://playerdb.co) look up player profiles for Minecraft, Steam, and Xbox accounts.
 
-player_db = PlayerDb()
-steam_account = player_db.steam_account_lookup(steam_id="")
-print(steam_account)
+## Quick Start
+```python
+from playerdb import PlayerDb
+
+db = PlayerDb()
+print(db.minecraft_account_lookup("Notch"))
 ```
+
+---
+
+## Methods
+
+| Method | Description |
+|--------|-------------|
+| `minecraft_account_lookup(username)` | Look up a Minecraft account by username |
+| `steam_account_lookup(steam_id)` | Look up a Steam account by ID |
+| `xbox_account_lookup(username)` | Look up an Xbox account by username |
